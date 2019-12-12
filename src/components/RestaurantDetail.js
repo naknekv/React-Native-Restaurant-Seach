@@ -3,6 +3,7 @@ import { View, Text, Image, StyleSheet } from 'react-native'
 
 const RestaurantDetail = ({ restaurant }) => {
     const { name, rating, review_count, image_url } = restaurant
+
     return (
         <View style={styles.container}>
             <Image style={styles.imageStyle} source={{ uri: image_url }} />

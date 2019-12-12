@@ -22,7 +22,7 @@ export default () => {
 
     useEffect(() => {
         onTermSubmit("pasta")
-    }, [])
+    }, [setRestaurants])
 
     return [onTermSubmit, restaurants, error]
 }
