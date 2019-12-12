@@ -21,7 +21,7 @@ export default () => {
     }
 
     useEffect(() => {
-        onTermSubmit("pizza")
+        onTermSubmit("pasta")
     }, [])
 
     return [onTermSubmit, restaurants, error]
